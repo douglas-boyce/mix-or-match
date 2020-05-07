@@ -31,6 +31,13 @@ class AudioController {
     }
 }
 
+class mixormatch {
+    constructor(totalTime, cards) {
+        this.cardArray = cards;
+        this.totalTime - totalTime;
+    }
+}
+
 
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
